@@ -1,5 +1,7 @@
 # llm-roleplay-boundary
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24295426.svg)](https://doi.org/10.5281/zenodo.24295426)
+
 Code, prompts, registration documents and aggregate results for a pre-registered study of whether large language
 models role-playing students rank test-item difficulty better than the same model rating each item directly
 (manuscript under review; Md Zabirul Islam and Ge Wang, Rensselaer Polytechnic Institute).
@@ -36,6 +38,10 @@ No dataset is redistributed here. Obtain each from its provider and verify it ag
 4. Run the registered analyses (`sim/hh.py`, `sim/secondary.py`, `sim/dbe.py`, `sim/assist_prep.py analyze`).
 5. `python3 make_numbers.py` and `python3 figures/make_figs.py` rebuild the reported numbers, Supplementary Data 1 and
    the data figures from `results/`.
+
+## Citation
+Cite the archived code as: Islam, M. Z. & Wang, G. Code and aggregate results (v1.0.0). Zenodo,
+https://doi.org/10.5281/zenodo.24295426 (all versions: https://doi.org/10.5281/zenodo.24295425).
 
 ## Licence
 Code: MIT (`LICENSE`). Result files are derived aggregates released under CC BY 4.0; the source datasets keep their own
