@@ -1,0 +1,93 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<meta name="figure-size" content="180x86">
+<!--PS:HEAD-->
+<style>
+  .a { position:absolute; display:flex; }
+  .stack { display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; }
+  .cell { border-radius:5px; padding:4px; font-size:var(--fs-s); }
+  .open { background:var(--c100); border:1px solid var(--c300); }
+  .sealed { background:var(--n100); border:1px solid var(--n300); color:var(--n700); }
+  .red { background:#B64342 !important; color:#fff; }
+  .grey { background:var(--n200); color:var(--n900); font-weight:700; border-radius:4px; padding:4px 6px; text-align:center; }
+  .hdr { font-size:var(--fs-xs); color:var(--n700); }
+  .chip { border-radius:4px; padding:3px 5px; font-size:var(--fs-xs); background:#fff; border:1px solid var(--n300); text-align:center; }
+  .chip.k { background:var(--c600); color:#fff; border-color:var(--c600); font-weight:700; }
+  .chip.d { background:var(--c300); border-color:var(--c300); }
+</style>
+</head><body>
+<div class="fig blue">
+  <!-- ===== A: four-block quarantine ===== -->
+  <div class="panel-letter" style="left:0;top:0">a</div>
+  <div class="a t-s" style="left:16px;top:2px;font-weight:700">Four-block split, before any model run</div>
+  <div class="a hdr stack" style="left:72px;top:20px;width:88px;height:14px">calibration items</div>
+  <div class="a hdr stack" style="left:164px;top:20px;width:88px;height:14px">held-out items</div>
+  <div class="a hdr stack" style="left:4px;top:38px;width:64px;height:60px">calibration students</div>
+  <div class="a hdr stack" style="left:4px;top:102px;width:64px;height:60px">held-out students</div>
+  <div class="a cell open col" style="left:72px;top:38px;width:88px;height:60px;gap:2px">
+    <b>cc</b><span class="t-xs">2PL fit, rating map, text baselines</span></div>
+  <div id="ch" class="a cell sealed col" style="left:164px;top:38px;width:88px;height:60px;gap:2px">
+    <span class="row" style="gap:3px"><i data-icon="lucide:lock" class="icon"></i><b>ch</b></span><span class="t-xs">sealed, never read</span></div>
+  <div class="a cell open col" style="left:72px;top:102px;width:88px;height:60px;gap:2px">
+    <b>hc</b><span class="t-xs">anchor answers &rarr; each student's &theta;</span></div>
+  <div id="hh" class="a cell sealed col" style="left:164px;top:102px;width:88px;height:60px;gap:2px;border:1.5px solid var(--c700)">
+    <span class="row" style="gap:3px"><i data-icon="lucide:lock" class="icon"></i><b>hh</b></span><span class="t-xs">evaluation; opened after hash lock + OSF; reads logged</span></div>
+
+  <!-- ===== B: arms and comparators ===== -->
+  <div class="panel-letter" style="left:268px;top:0">b</div>
+  <div class="a t-s" style="left:284px;top:2px;font-weight:700">Same held-out student &times; item cells, same model</div>
+  <div id="roles" class="a group col" style="left:284px;top:20px;width:212px;height:92px;gap:3px">
+    <div class="row" style="gap:4px"><i data-icon="lucide:users" class="icon" style="color:var(--c700)"></i>
+      <span class="t-s"><b>Role-play</b>: Qwen3.5-27B answers <i>as</i> the student</span></div>
+    <div class="fill deep t-xs">A2 &nbsp;&theta; from the student's hc answers</div>
+    <div class="fill mid t-xs">A1 population &theta; &nbsp;&middot;&nbsp; A0 fixed level</div>
+  </div>
+  <div id="direct" class="a box col" style="left:284px;top:118px;width:212px;height:54px;gap:3px">
+    <div class="row" style="gap:4px"><i data-icon="lucide:clipboard-check" class="icon" style="color:#B64342"></i>
+      <span class="t-s"><b>Direct rating</b> (same model)</span></div>
+    <div class="fill red t-xs">B4 &nbsp;&ldquo;% correct&rdquo; rating + isotonic map</div>
+  </div>
+  <div id="text" class="a box col" style="left:284px;top:178px;width:212px;height:20px;justify-content:center">
+    <div class="t-xs muted c">B1&ndash;B3 text baselines (2PL, embedding, TF-IDF)</div>
+  </div>
+  <div id="rho" class="a box stack" style="left:516px;top:62px;width:68px;height:82px">
+    <i data-icon="lucide:list-ordered" class="icon lg" style="color:var(--c700)"></i>
+    <div class="t-xs">Spearman &rho; with real proportion correct on hh</div>
+  </div>
+  <div id="h1" class="a fill deep stack" style="left:596px;top:62px;width:84px;height:82px">
+    <div class="t-s">H1</div><div class="t-xs" style="font-weight:400">&Delta;&rho; =<br>&rho;(A2) &minus; &rho;(B4)<br>H0: &Delta;&rho; &ge; 0.10<br>one-sided, &alpha; 0.05</div>
+  </div>
+
+  <!-- ===== C: three datasets ===== -->
+  <div class="panel-letter" style="left:0;top:212px">c</div>
+  <div class="a t-s" style="left:16px;top:214px;font-weight:700">Registration and order of access</div>
+  <div class="a col" style="left:16px;top:234px;width:664px;gap:6px">
+    <div class="row" style="gap:6px">
+      <div class="t-s" style="width:150px"><b>EEDI</b> maths, 130 items</div>
+      <div class="chip">calibration + design validation</div><span class="muted">&rarr;</span>
+      <div class="chip k">pre-registration v3.1 (OSF ygvdf)</div><span class="muted">&rarr;</span>
+      <div class="chip">hh opened</div><span class="muted">&rarr;</span>
+      <div class="chip k">H1 confirmatory</div>
+    </div>
+    <div class="row" style="gap:6px">
+      <div class="t-s" style="width:150px"><b>DBE-KT22</b> databases, 31 items</div>
+      <div class="chip">addendum A1 + review</div><span class="muted">&rarr;</span>
+      <div class="chip k">OSF update</div><span class="muted">&rarr;</span>
+      <div class="chip">hh opened</div><span class="muted">&rarr;</span>
+      <div class="chip d">descriptive (no test)</div>
+    </div>
+    <div class="row" style="gap:6px">
+      <div class="t-s" style="width:150px"><b>FoundationalASSIST</b> maths, 249 items</div>
+      <div class="chip">addendum A2 + validation (criterion not met)</div><span class="muted">&rarr;</span>
+      <div class="chip k">OSF update</div><span class="muted">&rarr;</span>
+      <div class="chip">hh opened</div><span class="muted">&rarr;</span>
+      <div class="chip d">descriptive (no test)</div>
+    </div>
+  </div>
+</div>
+<script>
+  link('#roles', '#rho', {from:'r', to:'l', color:'var(--c700)'});
+  link('#direct', '#rho', {from:'r', to:'l', color:'#B64342', dx2:30});
+  link('#rho', '#h1', {from:'r', to:'l', color:'var(--c700)'});
+</script>
+</body></html>

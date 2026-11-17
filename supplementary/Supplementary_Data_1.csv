@@ -1,0 +1,539 @@
+dataset,section,quantity,replicate,value,source
+EEDI,contrasts,E-anchor A2 vs baselines/B1_anchor/rhoS_r,1,0.34102896360412943,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B1_anchor/rhoS_r,2,0.3860034916049868,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B1_anchor/rhoS_r,3,0.41649009481033794,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B1_anchor/rhoS_r,4,0.4216244977382743,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B1_anchor/rhoS_r,5,0.42116677612544023,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B2/rhoS_r,1,0.34102896360412943,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B2/rhoS_r,2,0.3860034916049868,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B2/rhoS_r,3,0.41649009481033794,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B2/rhoS_r,4,0.4216244977382743,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B2/rhoS_r,5,0.42116677612544023,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B3/rhoS_r,1,0.34102896360412943,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B3/rhoS_r,2,0.3860034916049868,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B3/rhoS_r,3,0.41649009481033794,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B3/rhoS_r,4,0.4216244977382743,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B3/rhoS_r,5,0.42116677612544023,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B4/rhoS_r,1,0.34102896360412943,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B4/rhoS_r,2,0.3860034916049868,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B4/rhoS_r,3,0.41649009481033794,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B4/rhoS_r,4,0.4216244977382743,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B4/rhoS_r,5,0.42116677612544023,results/hh/secondary.json
+EEDI,contrasts,E-pop A1 vs B4/rhoS_r,1,0.30151273406919693,results/hh/secondary.json
+EEDI,contrasts,E-pop A1 vs B4/rhoS_r,2,0.3610975276711389,results/hh/secondary.json
+EEDI,contrasts,E-pop A1 vs B4/rhoS_r,3,0.3476811902741564,results/hh/secondary.json
+EEDI,contrasts,E-pop A1 vs B4/rhoS_r,4,0.3732955648171315,results/hh/secondary.json
+EEDI,contrasts,E-pop A1 vs B4/rhoS_r,5,0.3862468578911531,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A2 t0.6/classes,1,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A2 t0.6/classes,2,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A2 t0.6/classes,3,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A2 t0.6/classes,4,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A2 t0.6/classes,5,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A0 t0.8/classes,1,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A0 t0.8/classes,2,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A0 t0.8/classes,3,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A0 t0.8/classes,4,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A0 t0.8/classes,5,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A1 t0.8/classes,1,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A1 t0.8/classes,2,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A1 t0.8/classes,3,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A1 t0.8/classes,4,30,results/hh/secondary.json
+EEDI,within-class-counts,within-class rho/A1 t0.8/classes,5,30,results/hh/secondary.json
+EEDI,contrasts,sensitivity no-figure/rhoS_r,1,0.3545502000353009,results/hh/secondary.json
+EEDI,contrasts,sensitivity no-figure/rhoS_r,2,0.4080423639086497,results/hh/secondary.json
+EEDI,contrasts,sensitivity no-figure/rhoS_r,3,0.40335868512885376,results/hh/secondary.json
+EEDI,contrasts,sensitivity no-figure/rhoS_r,4,0.4505819915577021,results/hh/secondary.json
+EEDI,contrasts,sensitivity no-figure/rhoS_r,5,0.4203607796484492,results/hh/secondary.json
+EEDI,contrasts,sensitivity home-group-only/rhoS_r,1,0.3291463931731694,results/hh/secondary.json
+EEDI,contrasts,sensitivity home-group-only/rhoS_r,2,0.3741934076096273,results/hh/secondary.json
+EEDI,contrasts,sensitivity home-group-only/rhoS_r,3,0.38062721847774034,results/hh/secondary.json
+EEDI,contrasts,sensitivity home-group-only/rhoS_r,4,0.4155209811824756,results/hh/secondary.json
+EEDI,contrasts,sensitivity home-group-only/rhoS_r,5,0.4067464611169638,results/hh/secondary.json
+EEDI,contrasts,sensitivity all-172/rhoS_r,1,0.29400895100242636,results/hh/secondary.json
+EEDI,contrasts,sensitivity all-172/rhoS_r,2,0.32568178905212786,results/hh/secondary.json
+EEDI,contrasts,sensitivity all-172/rhoS_r,3,0.348335288672147,results/hh/secondary.json
+EEDI,contrasts,sensitivity all-172/rhoS_r,4,0.3640909782449767,results/hh/secondary.json
+EEDI,contrasts,sensitivity all-172/rhoS_r,5,0.3498291685278235,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A2 t0.6/estimable,1,109,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A2 t0.6/estimable,2,108,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A2 t0.6/estimable,3,110,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A2 t0.6/estimable,4,110,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A2 t0.6/estimable,5,108,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A0 t0.8/estimable,1,101,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A0 t0.8/estimable,2,101,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A0 t0.8/estimable,3,102,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A0 t0.8/estimable,4,101,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A0 t0.8/estimable,5,99,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A1 t0.8/estimable,1,111,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A1 t0.8/estimable,2,111,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A1 t0.8/estimable,3,111,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A1 t0.8/estimable,4,110,results/hh/secondary.json
+EEDI,distractor-coverage,distractors/A1 t0.8/estimable,5,110,results/hh/secondary.json
+EEDI,contrasts,tau ablation A2 t0.8 vs B4/rhoS_r,1,0.34465077343652484,results/hh/secondary.json
+EEDI,contrasts,tau ablation A2 t0.8 vs B4/rhoS_r,2,0.3705396741241159,results/hh/secondary.json
+EEDI,contrasts,tau ablation A2 t0.8 vs B4/rhoS_r,3,0.4124640602811543,results/hh/secondary.json
+EEDI,contrasts,tau ablation A2 t0.8 vs B4/rhoS_r,4,0.3925501525034963,results/hh/secondary.json
+EEDI,contrasts,tau ablation A2 t0.8 vs B4/rhoS_r,5,0.3540373862940964,results/hh/secondary.json
+EEDI,contrasts,budget k=5/rhoS_r,1,0.4069469451844543,results/hh/secondary.json
+EEDI,contrasts,budget k=5/rhoS_r,2,0.3784476211666208,results/hh/secondary.json
+EEDI,contrasts,budget k=5/rhoS_r,3,0.3707900628937322,results/hh/secondary.json
+EEDI,contrasts,budget k=5/rhoS_r,4,0.42308606817903927,results/hh/secondary.json
+EEDI,contrasts,budget k=5/rhoS_r,5,0.3938435226629295,results/hh/secondary.json
+EEDI,contrasts,budget k=10/rhoS_r,1,0.35200967036184405,results/hh/secondary.json
+EEDI,contrasts,budget k=10/rhoS_r,2,0.3892683127598674,results/hh/secondary.json
+EEDI,contrasts,budget k=10/rhoS_r,3,0.4119124918462726,results/hh/secondary.json
+EEDI,contrasts,budget k=10/rhoS_r,4,0.42741181970813097,results/hh/secondary.json
+EEDI,contrasts,budget k=10/rhoS_r,5,0.3651761114550891,results/hh/secondary.json
+EEDI,contrasts,budget k=20/rhoS_r,1,0.362698870602299,results/hh/secondary.json
+EEDI,contrasts,budget k=20/rhoS_r,2,0.3712211077845778,results/hh/secondary.json
+EEDI,contrasts,budget k=20/rhoS_r,3,0.3699509468973689,results/hh/secondary.json
+EEDI,contrasts,budget k=20/rhoS_r,4,0.3870418648727933,results/hh/secondary.json
+EEDI,contrasts,budget k=20/rhoS_r,5,0.40422857912887117,results/hh/secondary.json
+EEDI,contrasts,Gemma A2 vs Gemma B4/rhoS_r,1,0.270746271866084,results/hh/secondary.json
+EEDI,contrasts,Gemma A2 vs Gemma B4/rhoS_r,2,0.2745298155295134,results/hh/secondary.json
+EEDI,contrasts,Gemma A2 vs Gemma B4/rhoS_r,3,0.27133587820558136,results/hh/secondary.json
+EEDI,contrasts,Gemma A2 vs Gemma B4/rhoS_r,4,0.2700611189004906,results/hh/secondary.json
+EEDI,contrasts,Gemma A2 vs Gemma B4/rhoS_r,5,0.2711890428254209,results/hh/secondary.json
+DBE-KT22,contrasts,A2 vs B4 (primary DBE contrast)/rhoS_r,1,0.07700397560373468,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B4 (primary DBE contrast)/rhoS_r,2,-0.038849936047584646,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B4 (primary DBE contrast)/rhoS_r,3,0.03298988982811658,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B4 (primary DBE contrast)/rhoS_r,4,0.007058286240874221,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B4 (primary DBE contrast)/rhoS_r,5,-0.010274816178761128,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B4 (primary DBE contrast)/delta_r,1,-0.27987136059339174,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B4 (primary DBE contrast)/delta_r,2,-0.39572527224471105,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B4 (primary DBE contrast)/delta_r,3,-0.32388544636900984,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B4 (primary DBE contrast)/delta_r,4,-0.3498170499562522,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B4 (primary DBE contrast)/delta_r,5,-0.36715015237588755,results/dbe/results-dbe.json
+DBE-KT22,contrasts,E-pop A1 vs B4/rhoS_r,1,0.06625299122135478,results/dbe/results-dbe.json
+DBE-KT22,contrasts,E-pop A1 vs B4/rhoS_r,2,-0.01654792314457468,results/dbe/results-dbe.json
+DBE-KT22,contrasts,E-pop A1 vs B4/rhoS_r,3,0.052545475796246896,results/dbe/results-dbe.json
+DBE-KT22,contrasts,E-pop A1 vs B4/rhoS_r,4,-0.011630619148576387,results/dbe/results-dbe.json
+DBE-KT22,contrasts,E-pop A1 vs B4/rhoS_r,5,0.032036201599343055,results/dbe/results-dbe.json
+DBE-KT22,contrasts,E-pop A1 vs B4/delta_r,1,-0.29062234497577166,results/dbe/results-dbe.json
+DBE-KT22,contrasts,E-pop A1 vs B4/delta_r,2,-0.3734232593417011,results/dbe/results-dbe.json
+DBE-KT22,contrasts,E-pop A1 vs B4/delta_r,3,-0.3043298604008795,results/dbe/results-dbe.json
+DBE-KT22,contrasts,E-pop A1 vs B4/delta_r,4,-0.3685059553457028,results/dbe/results-dbe.json
+DBE-KT22,contrasts,E-pop A1 vs B4/delta_r,5,-0.32483913459778335,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B1_anchor/rhoS_r,1,0.07700397560373468,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B1_anchor/rhoS_r,2,-0.038849936047584646,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B1_anchor/rhoS_r,3,0.03298988982811658,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B1_anchor/rhoS_r,4,0.007058286240874221,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B1_anchor/rhoS_r,5,-0.010274816178761128,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B1_anchor/delta_r,1,-0.5439637663317494,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B1_anchor/delta_r,2,-0.6598176779830687,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B1_anchor/delta_r,3,-0.5879778521073674,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B1_anchor/delta_r,4,-0.6139094556946098,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B1_anchor/delta_r,5,-0.6312425581142451,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B2/rhoS_r,1,0.07700397560373468,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B2/rhoS_r,2,-0.038849936047584646,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B2/rhoS_r,3,0.03298988982811658,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B2/rhoS_r,4,0.007058286240874221,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B2/rhoS_r,5,-0.010274816178761128,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B2/delta_r,1,-0.49920570181562013,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B2/delta_r,2,-0.6150596134669395,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B2/delta_r,3,-0.5432197875912382,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B2/delta_r,4,-0.5691513911784806,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B2/delta_r,5,-0.5864844935981159,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B3/rhoS_r,1,0.07700397560373468,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B3/rhoS_r,2,-0.038849936047584646,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B3/rhoS_r,3,0.03298988982811658,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B3/rhoS_r,4,0.007058286240874221,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B3/rhoS_r,5,-0.010274816178761128,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B3/delta_r,1,-0.5943669921382009,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B3/delta_r,2,-0.7102209037895203,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B3/delta_r,3,-0.638381077913819,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B3/delta_r,4,-0.6643126815010614,results/dbe/results-dbe.json
+DBE-KT22,contrasts,A2 vs B3/delta_r,5,-0.6816457839206967,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity all held-out items/rhoS_r,1,0.06894459932068768,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity all held-out items/rhoS_r,2,0.017326343767397598,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity all held-out items/rhoS_r,3,0.053235250480950756,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity all held-out items/rhoS_r,4,0.03358759378902388,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity all held-out items/rhoS_r,5,0.03989801756328503,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity all held-out items/delta_r,1,-0.27237116444880216,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity all held-out items/delta_r,2,-0.32398942000209224,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity all held-out items/delta_r,3,-0.2880805132885391,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity all held-out items/delta_r,4,-0.307728169980466,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity all held-out items/delta_r,5,-0.3014177462062048,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-LaTeX/rhoS_r,1,0.06931974468285736,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-LaTeX/rhoS_r,2,-0.08433154216585083,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-LaTeX/rhoS_r,3,0.012437385715107495,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-LaTeX/rhoS_r,4,-0.026084878549099855,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-LaTeX/rhoS_r,5,-0.044016680691952005,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-LaTeX/delta_r,1,-0.2335253995251253,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-LaTeX/delta_r,2,-0.38717668637383346,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-LaTeX/delta_r,3,-0.29040775849287515,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-LaTeX/delta_r,4,-0.3289300227570825,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-LaTeX/delta_r,5,-0.34686182489993467,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-table/rhoS_r,1,0.07700397560373468,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-table/rhoS_r,2,-0.038849936047584646,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-table/rhoS_r,3,0.03298988982811658,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-table/rhoS_r,4,0.007058286240874221,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-table/rhoS_r,5,-0.010274816178761128,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-table/delta_r,1,-0.27987136059339174,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-table/delta_r,2,-0.39572527224471105,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-table/delta_r,3,-0.32388544636900984,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-table/delta_r,4,-0.3498170499562522,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity no-table/delta_r,5,-0.36715015237588755,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity four-option only/rhoS_r,1,0.1456992452200817,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity four-option only/rhoS_r,2,0.004276316714923211,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity four-option only/rhoS_r,3,0.08092107014393154,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity four-option only/rhoS_r,4,0.05498028904400535,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity four-option only/rhoS_r,5,0.034966818849884215,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity four-option only/delta_r,1,-0.2478267147602869,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity four-option only/delta_r,2,-0.38924964326544537,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity four-option only/delta_r,3,-0.3126048898364371,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity four-option only/delta_r,4,-0.33854567093636323,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity four-option only/delta_r,5,-0.35855914113048437,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity key-consistent items only/rhoS_r,1,0.07700397560373468,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity key-consistent items only/rhoS_r,2,-0.038849936047584646,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity key-consistent items only/rhoS_r,3,0.03298988982811658,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity key-consistent items only/rhoS_r,4,0.007058286240874221,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity key-consistent items only/rhoS_r,5,-0.010274816178761128,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity key-consistent items only/delta_r,1,-0.27987136059339174,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity key-consistent items only/delta_r,2,-0.39572527224471105,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity key-consistent items only/delta_r,3,-0.32388544636900984,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity key-consistent items only/delta_r,4,-0.3498170499562522,results/dbe/results-dbe.json
+DBE-KT22,contrasts,sensitivity key-consistent items only/delta_r,5,-0.36715015237588755,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a2-t0.6/ratioPerReplicate",1,0.5225488734522361,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a2-t0.6/ratioPerReplicate",2,0.5383888570590587,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a2-t0.6/ratioPerReplicate",3,0.5071197277627876,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a2-t0.6/ratioPerReplicate",4,0.5268221876309693,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a2-t0.6/ratioPerReplicate",5,0.5916931819320628,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a0-t0.8/ratioPerReplicate",1,1.4221465174319725,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a0-t0.8/ratioPerReplicate",2,1.5826038756062846,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a0-t0.8/ratioPerReplicate",3,1.533949668655272,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a0-t0.8/ratioPerReplicate",4,1.5943458539071658,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a0-t0.8/ratioPerReplicate",5,1.4915469574466036,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a1-t0.8/ratioPerReplicate",1,0.5606847337226433,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a1-t0.8/ratioPerReplicate",2,0.6799167682862489,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a1-t0.8/ratioPerReplicate",3,0.4835613234557068,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a1-t0.8/ratioPerReplicate",4,0.5322494131076583,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/primary/a1-t0.8/ratioPerReplicate",5,0.5622578937444692,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/all held-out items/a2-t0.6/ratioPerReplicate",1,0.48571328641400735,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/all held-out items/a2-t0.6/ratioPerReplicate",2,0.5519700426751589,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/all held-out items/a2-t0.6/ratioPerReplicate",3,0.49063782103238757,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/all held-out items/a2-t0.6/ratioPerReplicate",4,0.5680639822141612,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/all held-out items/a2-t0.6/ratioPerReplicate",5,0.5392116704627697,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/no-LaTeX/a2-t0.6/ratioPerReplicate",1,0.3802046547094209,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/no-LaTeX/a2-t0.6/ratioPerReplicate",2,0.33661826686688195,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/no-LaTeX/a2-t0.6/ratioPerReplicate",3,0.3187227730575697,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/no-LaTeX/a2-t0.6/ratioPerReplicate",4,0.3033780473636486,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/no-LaTeX/a2-t0.6/ratioPerReplicate",5,0.4329190202417135,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/no-table/a2-t0.6/ratioPerReplicate",1,0.5225488734522361,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/no-table/a2-t0.6/ratioPerReplicate",2,0.5383888570590587,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/no-table/a2-t0.6/ratioPerReplicate",3,0.5071197277627876,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/no-table/a2-t0.6/ratioPerReplicate",4,0.5268221876309693,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/no-table/a2-t0.6/ratioPerReplicate",5,0.5916931819320628,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/four-option only/a2-t0.6/ratioPerReplicate",1,0.5365950477987316,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/four-option only/a2-t0.6/ratioPerReplicate",2,0.5157289608167225,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/four-option only/a2-t0.6/ratioPerReplicate",3,0.5102340203871607,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/four-option only/a2-t0.6/ratioPerReplicate",4,0.5314643556185992,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/four-option only/a2-t0.6/ratioPerReplicate",5,0.5451296567169042,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/key-consistent items only/a2-t0.6/ratioPerReplicate",1,0.5225488734522361,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/key-consistent items only/a2-t0.6/ratioPerReplicate",2,0.5383888570590587,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/key-consistent items only/a2-t0.6/ratioPerReplicate",3,0.5071197277627876,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/key-consistent items only/a2-t0.6/ratioPerReplicate",4,0.5268221876309693,results/dbe/results-dbe.json
+DBE-KT22,cohort-variance,"cohort variance ratio (sim/real; all held-out students, not classes)/key-consistent items only/a2-t0.6/ratioPerReplicate",5,0.5916931819320628,results/dbe/results-dbe.json
+FoundationalASSIST,contrasts,A2 vs B4 (descriptive)/rhoS_r,1,0.19436649939388423,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B4 (descriptive)/rhoS_r,2,0.23433181965672062,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B4 (descriptive)/rhoS_r,3,0.20917148280754963,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B4 (descriptive)/rhoS_r,4,0.2076895580952439,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B4 (descriptive)/rhoS_r,5,0.26436337945687877,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B4 (descriptive)/delta_r,1,-0.033918666575590284,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B4 (descriptive)/delta_r,2,0.006046653687246106,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B4 (descriptive)/delta_r,3,-0.019113683161924883,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B4 (descriptive)/delta_r,4,-0.02059560787423062,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B4 (descriptive)/delta_r,5,0.036078213487404254,results/assist/results-assist.json
+FoundationalASSIST,contrasts,E-pop A1 vs B4/rhoS_r,1,0.2754082745820543,results/assist/results-assist.json
+FoundationalASSIST,contrasts,E-pop A1 vs B4/rhoS_r,2,0.14471918613923898,results/assist/results-assist.json
+FoundationalASSIST,contrasts,E-pop A1 vs B4/rhoS_r,3,0.2136139173709645,results/assist/results-assist.json
+FoundationalASSIST,contrasts,E-pop A1 vs B4/rhoS_r,4,0.22795566607856496,results/assist/results-assist.json
+FoundationalASSIST,contrasts,E-pop A1 vs B4/rhoS_r,5,0.19420455255524582,results/assist/results-assist.json
+FoundationalASSIST,contrasts,E-pop A1 vs B4/delta_r,1,0.04712310861257979,results/assist/results-assist.json
+FoundationalASSIST,contrasts,E-pop A1 vs B4/delta_r,2,-0.08356597983023553,results/assist/results-assist.json
+FoundationalASSIST,contrasts,E-pop A1 vs B4/delta_r,3,-0.014671248598510017,results/assist/results-assist.json
+FoundationalASSIST,contrasts,E-pop A1 vs B4/delta_r,4,-0.00032949989090955145,results/assist/results-assist.json
+FoundationalASSIST,contrasts,E-pop A1 vs B4/delta_r,5,-0.03408061341422869,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B1_anchor/rhoS_r,1,0.19436649939388423,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B1_anchor/rhoS_r,2,0.23433181965672062,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B1_anchor/rhoS_r,3,0.20917148280754963,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B1_anchor/rhoS_r,4,0.2076895580952439,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B1_anchor/rhoS_r,5,0.26436337945687877,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B1_anchor/delta_r,1,-0.18902069904989055,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B1_anchor/delta_r,2,-0.14905537878705416,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B1_anchor/delta_r,3,-0.17421571563622515,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B1_anchor/delta_r,4,-0.1756976403485309,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B1_anchor/delta_r,5,-0.11902381898689601,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B2/rhoS_r,1,0.19436649939388423,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B2/rhoS_r,2,0.23433181965672062,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B2/rhoS_r,3,0.20917148280754963,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B2/rhoS_r,4,0.2076895580952439,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B2/rhoS_r,5,0.26436337945687877,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B2/delta_r,1,0.02122093316831336,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B2/delta_r,2,0.06118625343114975,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B2/delta_r,3,0.03602591658197876,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B2/delta_r,4,0.034543991869673024,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B2/delta_r,5,0.0912178132313079,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B3/rhoS_r,1,0.19436649939388423,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B3/rhoS_r,2,0.23433181965672062,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B3/rhoS_r,3,0.20917148280754963,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B3/rhoS_r,4,0.2076895580952439,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B3/rhoS_r,5,0.26436337945687877,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B3/delta_r,1,0.027201071153644646,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B3/delta_r,2,0.06716639141648104,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B3/delta_r,3,0.04200605456731005,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B3/delta_r,4,0.04052412985500431,results/assist/results-assist.json
+FoundationalASSIST,contrasts,A2 vs B3/delta_r,5,0.09719795121663918,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity all held-out eligible items/rhoS_r,1,0.1994849160097221,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity all held-out eligible items/rhoS_r,2,0.2112011664731896,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity all held-out eligible items/rhoS_r,3,0.2146163956081806,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity all held-out eligible items/rhoS_r,4,0.2060908557488314,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity all held-out eligible items/rhoS_r,5,0.2602332428490333,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity all held-out eligible items/delta_r,1,-0.02952284666383087,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity all held-out eligible items/delta_r,2,-0.017806596200363373,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity all held-out eligible items/delta_r,3,-0.014391367065372362,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity all held-out eligible items/delta_r,4,-0.022916906924721564,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity all held-out eligible items/delta_r,5,0.031225480175480352,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity option-match correctness/rhoS_r,1,-0.04261638682782831,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity option-match correctness/rhoS_r,2,0.010105081628134798,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity option-match correctness/rhoS_r,3,-0.022976694009952572,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity option-match correctness/rhoS_r,4,-0.02438277055977885,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity option-match correctness/rhoS_r,5,0.023188536335184314,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity option-match correctness/delta_r,1,-0.13324617181639875,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity option-match correctness/delta_r,2,-0.08052470336043563,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity option-match correctness/delta_r,3,-0.113606478998523,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity option-match correctness/delta_r,4,-0.11501255554834927,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity option-match correctness/delta_r,5,-0.0674412486533861,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity 3-4 option items only/rhoS_r,1,0.19721139190131026,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity 3-4 option items only/rhoS_r,2,0.242864870782035,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity 3-4 option items only/rhoS_r,3,0.269620555158562,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity 3-4 option items only/rhoS_r,4,0.2759832539145066,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity 3-4 option items only/rhoS_r,5,0.2702041021020845,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity 3-4 option items only/delta_r,1,0.1572159577160106,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity 3-4 option items only/delta_r,2,0.20286943659673534,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity 3-4 option items only/delta_r,3,0.22962512097326232,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity 3-4 option items only/delta_r,4,0.23598781972920696,results/assist/results-assist.json
+FoundationalASSIST,contrasts,sensitivity 3-4 option items only/delta_r,5,0.23020866791678485,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a2-t0.6/ratioPerReplicate,1,0.600043142857893,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a2-t0.6/ratioPerReplicate,2,0.6272013370992345,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a2-t0.6/ratioPerReplicate,3,0.6135248731878059,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a2-t0.6/ratioPerReplicate,4,0.6071086971542516,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a2-t0.6/ratioPerReplicate,5,0.5831437077621733,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a0-t0.8/ratioPerReplicate,1,0.6108113519748609,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a0-t0.8/ratioPerReplicate,2,0.6802311193436424,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a0-t0.8/ratioPerReplicate,3,0.6438715820766132,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a0-t0.8/ratioPerReplicate,4,0.636800922340695,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a0-t0.8/ratioPerReplicate,5,0.6345631960786249,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a1-t0.8/ratioPerReplicate,1,0.6135756350590258,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a1-t0.8/ratioPerReplicate,2,0.6934274579547929,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a1-t0.8/ratioPerReplicate,3,0.6998405890606235,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a1-t0.8/ratioPerReplicate,4,0.6362159071897425,results/assist/results-assist.json
+FoundationalASSIST,cohort-variance,cohort variance ratio (sim/real; all held-out students)/a1-t0.8/ratioPerReplicate,5,0.6897284555209988,results/assist/results-assist.json
+EEDI,contrasts,E-anchor A2 vs baselines/B1_anchor/rhoBase,all,0.3070516451363466,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B1_anchor/delta_r (rhoS_r - rhoBase),1,0.03397731846778285,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B1_anchor/delta_r (rhoS_r - rhoBase),2,0.07895184646864023,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B1_anchor/delta_r (rhoS_r - rhoBase),3,0.10943844967399136,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B1_anchor/delta_r (rhoS_r - rhoBase),4,0.11457285260192773,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B1_anchor/delta_r (rhoS_r - rhoBase),5,0.11411513098909365,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B2/rhoBase,all,0.24183728147585268,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B2/delta_r (rhoS_r - rhoBase),1,0.09919168212827675,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B2/delta_r (rhoS_r - rhoBase),2,0.14416621012913414,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B2/delta_r (rhoS_r - rhoBase),3,0.17465281333448526,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B2/delta_r (rhoS_r - rhoBase),4,0.17978721626242164,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B2/delta_r (rhoS_r - rhoBase),5,0.17932949464958756,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B3/rhoBase,all,0.2038870781443941,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B3/delta_r (rhoS_r - rhoBase),1,0.13714188545973532,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B3/delta_r (rhoS_r - rhoBase),2,0.1821164134605927,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B3/delta_r (rhoS_r - rhoBase),3,0.21260301666594383,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B3/delta_r (rhoS_r - rhoBase),4,0.2177374195938802,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B3/delta_r (rhoS_r - rhoBase),5,0.21727969798104613,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B4/rhoBase,all,0.3918962167224745,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B4/delta_r (rhoS_r - rhoBase),1,-0.05086725311834506,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B4/delta_r (rhoS_r - rhoBase),2,-0.005892725117487674,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B4/delta_r (rhoS_r - rhoBase),3,0.024593878087863452,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B4/delta_r (rhoS_r - rhoBase),4,0.02972828101579983,results/hh/secondary.json
+EEDI,contrasts,E-anchor A2 vs baselines/B4/delta_r (rhoS_r - rhoBase),5,0.029270559402965746,results/hh/secondary.json
+EEDI,contrasts,E-pop A1 vs B4/rhoBase,all,0.3918962167224745,results/hh/secondary.json
+EEDI,contrasts,E-pop A1 vs B4/delta_r (rhoS_r - rhoBase),1,-0.09038348265327756,results/hh/secondary.json
+EEDI,contrasts,E-pop A1 vs B4/delta_r (rhoS_r - rhoBase),2,-0.030798689051335593,results/hh/secondary.json
+EEDI,contrasts,E-pop A1 vs B4/delta_r (rhoS_r - rhoBase),3,-0.044215026448318095,results/hh/secondary.json
+EEDI,contrasts,E-pop A1 vs B4/delta_r (rhoS_r - rhoBase),4,-0.01860065190534299,results/hh/secondary.json
+EEDI,contrasts,E-pop A1 vs B4/delta_r (rhoS_r - rhoBase),5,-0.005649358831321394,results/hh/secondary.json
+EEDI,contrasts,sensitivity no-figure/rhoBase,all,0.4397341327498807,results/hh/secondary.json
+EEDI,contrasts,sensitivity no-figure/delta_r (rhoS_r - rhoBase),1,-0.0851839327145798,results/hh/secondary.json
+EEDI,contrasts,sensitivity no-figure/delta_r (rhoS_r - rhoBase),2,-0.03169176884123104,results/hh/secondary.json
+EEDI,contrasts,sensitivity no-figure/delta_r (rhoS_r - rhoBase),3,-0.03637544762102696,results/hh/secondary.json
+EEDI,contrasts,sensitivity no-figure/delta_r (rhoS_r - rhoBase),4,0.010847858807821409,results/hh/secondary.json
+EEDI,contrasts,sensitivity no-figure/delta_r (rhoS_r - rhoBase),5,-0.019373353101431512,results/hh/secondary.json
+EEDI,contrasts,sensitivity home-group-only/rhoBase,all,0.40249504587417195,results/hh/secondary.json
+EEDI,contrasts,sensitivity home-group-only/delta_r (rhoS_r - rhoBase),1,-0.07334865270100255,results/hh/secondary.json
+EEDI,contrasts,sensitivity home-group-only/delta_r (rhoS_r - rhoBase),2,-0.028301638264544626,results/hh/secondary.json
+EEDI,contrasts,sensitivity home-group-only/delta_r (rhoS_r - rhoBase),3,-0.021867827396431616,results/hh/secondary.json
+EEDI,contrasts,sensitivity home-group-only/delta_r (rhoS_r - rhoBase),4,0.013025935308303649,results/hh/secondary.json
+EEDI,contrasts,sensitivity home-group-only/delta_r (rhoS_r - rhoBase),5,0.004251415242791823,results/hh/secondary.json
+EEDI,contrasts,sensitivity all-172/rhoBase,all,0.38720960635866103,results/hh/secondary.json
+EEDI,contrasts,sensitivity all-172/delta_r (rhoS_r - rhoBase),1,-0.09320065535623467,results/hh/secondary.json
+EEDI,contrasts,sensitivity all-172/delta_r (rhoS_r - rhoBase),2,-0.06152781730653317,results/hh/secondary.json
+EEDI,contrasts,sensitivity all-172/delta_r (rhoS_r - rhoBase),3,-0.038874317686514004,results/hh/secondary.json
+EEDI,contrasts,sensitivity all-172/delta_r (rhoS_r - rhoBase),4,-0.023118628113684314,results/hh/secondary.json
+EEDI,contrasts,sensitivity all-172/delta_r (rhoS_r - rhoBase),5,-0.037380437830837554,results/hh/secondary.json
+EEDI,contrasts,tau ablation A2 t0.8 vs B4/rhoBase,all,0.3918962167224745,results/hh/secondary.json
+EEDI,contrasts,tau ablation A2 t0.8 vs B4/delta_r (rhoS_r - rhoBase),1,-0.04724544328594965,results/hh/secondary.json
+EEDI,contrasts,tau ablation A2 t0.8 vs B4/delta_r (rhoS_r - rhoBase),2,-0.021356542598358563,results/hh/secondary.json
+EEDI,contrasts,tau ablation A2 t0.8 vs B4/delta_r (rhoS_r - rhoBase),3,0.0205678435586798,results/hh/secondary.json
+EEDI,contrasts,tau ablation A2 t0.8 vs B4/delta_r (rhoS_r - rhoBase),4,0.0006539357810217972,results/hh/secondary.json
+EEDI,contrasts,tau ablation A2 t0.8 vs B4/delta_r (rhoS_r - rhoBase),5,-0.037858830428378065,results/hh/secondary.json
+EEDI,contrasts,budget k=5/rhoBase,all,0.3918962167224745,results/hh/secondary.json
+EEDI,contrasts,budget k=5/delta_r (rhoS_r - rhoBase),1,0.015050728461979801,results/hh/secondary.json
+EEDI,contrasts,budget k=5/delta_r (rhoS_r - rhoBase),2,-0.013448595555853704,results/hh/secondary.json
+EEDI,contrasts,budget k=5/delta_r (rhoS_r - rhoBase),3,-0.021106153828742313,results/hh/secondary.json
+EEDI,contrasts,budget k=5/delta_r (rhoS_r - rhoBase),4,0.031189851456564777,results/hh/secondary.json
+EEDI,contrasts,budget k=5/delta_r (rhoS_r - rhoBase),5,0.001947305940455002,results/hh/secondary.json
+EEDI,contrasts,budget k=10/rhoBase,all,0.3918962167224745,results/hh/secondary.json
+EEDI,contrasts,budget k=10/delta_r (rhoS_r - rhoBase),1,-0.03988654636063044,results/hh/secondary.json
+EEDI,contrasts,budget k=10/delta_r (rhoS_r - rhoBase),2,-0.002627903962607092,results/hh/secondary.json
+EEDI,contrasts,budget k=10/delta_r (rhoS_r - rhoBase),3,0.02001627512379811,results/hh/secondary.json
+EEDI,contrasts,budget k=10/delta_r (rhoS_r - rhoBase),4,0.03551560298565648,results/hh/secondary.json
+EEDI,contrasts,budget k=10/delta_r (rhoS_r - rhoBase),5,-0.026720105267385386,results/hh/secondary.json
+EEDI,contrasts,budget k=20/rhoBase,all,0.3918962167224745,results/hh/secondary.json
+EEDI,contrasts,budget k=20/delta_r (rhoS_r - rhoBase),1,-0.029197346120175494,results/hh/secondary.json
+EEDI,contrasts,budget k=20/delta_r (rhoS_r - rhoBase),2,-0.020675108937896702,results/hh/secondary.json
+EEDI,contrasts,budget k=20/delta_r (rhoS_r - rhoBase),3,-0.021945269825105584,results/hh/secondary.json
+EEDI,contrasts,budget k=20/delta_r (rhoS_r - rhoBase),4,-0.004854351849681193,results/hh/secondary.json
+EEDI,contrasts,budget k=20/delta_r (rhoS_r - rhoBase),5,0.01233236240639668,results/hh/secondary.json
+EEDI,contrasts,Gemma A2 vs Gemma B4/rhoBase,all,0.29703982774521137,results/hh/secondary.json
+EEDI,contrasts,Gemma A2 vs Gemma B4/delta_r (rhoS_r - rhoBase),1,-0.02629355587912735,results/hh/secondary.json
+EEDI,contrasts,Gemma A2 vs Gemma B4/delta_r (rhoS_r - rhoBase),2,-0.022510012215697983,results/hh/secondary.json
+EEDI,contrasts,Gemma A2 vs Gemma B4/delta_r (rhoS_r - rhoBase),3,-0.02570394953963001,results/hh/secondary.json
+EEDI,contrasts,Gemma A2 vs Gemma B4/delta_r (rhoS_r - rhoBase),4,-0.026978708844720756,results/hh/secondary.json
+EEDI,contrasts,Gemma A2 vs Gemma B4/delta_r (rhoS_r - rhoBase),5,-0.02585078491979048,results/hh/secondary.json
+EEDI,H2,A2 t0.6/medianLogRatio,1,-0.614672719065343,results/hh/h1.json
+EEDI,H2,A2 t0.6/nLogRatio,1,30,results/hh/h1.json
+EEDI,H2,A2 t0.6/medianD_conditional,1,-0.23960689916897537,results/hh/h1.json
+EEDI,H2,A2 t0.6/nD,1,30,results/hh/h1.json
+EEDI,H2,A2 t0.6/simZeroVar,1,0,results/hh/h1.json
+EEDI,H2,A2 t0.6/simUndefinedR,1,0,results/hh/h1.json
+EEDI,H2,A2 t0.6/exp(medianLogRatio),1,0.5408178657247891,results/hh/h1.json
+EEDI,H2,A2 t0.6/medianLogRatio,2,-0.6332899967457906,results/hh/h1.json
+EEDI,H2,A2 t0.6/nLogRatio,2,30,results/hh/h1.json
+EEDI,H2,A2 t0.6/medianD_conditional,2,-0.2085998861531349,results/hh/h1.json
+EEDI,H2,A2 t0.6/nD,2,30,results/hh/h1.json
+EEDI,H2,A2 t0.6/simZeroVar,2,0,results/hh/h1.json
+EEDI,H2,A2 t0.6/simUndefinedR,2,0,results/hh/h1.json
+EEDI,H2,A2 t0.6/exp(medianLogRatio),2,0.5308424549640651,results/hh/h1.json
+EEDI,H2,A2 t0.6/medianLogRatio,3,-0.5713571625106759,results/hh/h1.json
+EEDI,H2,A2 t0.6/nLogRatio,3,30,results/hh/h1.json
+EEDI,H2,A2 t0.6/medianD_conditional,3,-0.08546678168136149,results/hh/h1.json
+EEDI,H2,A2 t0.6/nD,3,30,results/hh/h1.json
+EEDI,H2,A2 t0.6/simZeroVar,3,0,results/hh/h1.json
+EEDI,H2,A2 t0.6/simUndefinedR,3,0,results/hh/h1.json
+EEDI,H2,A2 t0.6/exp(medianLogRatio),3,0.5647584493576169,results/hh/h1.json
+EEDI,H2,A2 t0.6/medianLogRatio,4,-0.6716092550653447,results/hh/h1.json
+EEDI,H2,A2 t0.6/nLogRatio,4,30,results/hh/h1.json
+EEDI,H2,A2 t0.6/medianD_conditional,4,-0.13348225280337164,results/hh/h1.json
+EEDI,H2,A2 t0.6/nD,4,30,results/hh/h1.json
+EEDI,H2,A2 t0.6/simZeroVar,4,0,results/hh/h1.json
+EEDI,H2,A2 t0.6/simUndefinedR,4,0,results/hh/h1.json
+EEDI,H2,A2 t0.6/exp(medianLogRatio),4,0.5108857703968078,results/hh/h1.json
+EEDI,H2,A2 t0.6/medianLogRatio,5,-0.7883177636028822,results/hh/h1.json
+EEDI,H2,A2 t0.6/nLogRatio,5,30,results/hh/h1.json
+EEDI,H2,A2 t0.6/medianD_conditional,5,-0.16077872602373847,results/hh/h1.json
+EEDI,H2,A2 t0.6/nD,5,30,results/hh/h1.json
+EEDI,H2,A2 t0.6/simZeroVar,5,0,results/hh/h1.json
+EEDI,H2,A2 t0.6/simUndefinedR,5,0,results/hh/h1.json
+EEDI,H2,A2 t0.6/exp(medianLogRatio),5,0.45460891204794057,results/hh/h1.json
+EEDI,H2,A0 t0.8/medianLogRatio,1,-0.8771316506002607,results/hh/h1.json
+EEDI,H2,A0 t0.8/nLogRatio,1,30,results/hh/h1.json
+EEDI,H2,A0 t0.8/medianD_conditional,1,-0.17517885212682302,results/hh/h1.json
+EEDI,H2,A0 t0.8/nD,1,30,results/hh/h1.json
+EEDI,H2,A0 t0.8/simZeroVar,1,0,results/hh/h1.json
+EEDI,H2,A0 t0.8/simUndefinedR,1,0,results/hh/h1.json
+EEDI,H2,A0 t0.8/exp(medianLogRatio),1,0.41597436192824444,results/hh/h1.json
+EEDI,H2,A0 t0.8/medianLogRatio,2,-0.91669921317809,results/hh/h1.json
+EEDI,H2,A0 t0.8/nLogRatio,2,30,results/hh/h1.json
+EEDI,H2,A0 t0.8/medianD_conditional,2,-0.17028961497708775,results/hh/h1.json
+EEDI,H2,A0 t0.8/nD,2,30,results/hh/h1.json
+EEDI,H2,A0 t0.8/simZeroVar,2,0,results/hh/h1.json
+EEDI,H2,A0 t0.8/simUndefinedR,2,0,results/hh/h1.json
+EEDI,H2,A0 t0.8/exp(medianLogRatio),2,0.39983664084527776,results/hh/h1.json
+EEDI,H2,A0 t0.8/medianLogRatio,3,-0.8824729113201666,results/hh/h1.json
+EEDI,H2,A0 t0.8/nLogRatio,3,30,results/hh/h1.json
+EEDI,H2,A0 t0.8/medianD_conditional,3,-0.20136288249488749,results/hh/h1.json
+EEDI,H2,A0 t0.8/nD,3,30,results/hh/h1.json
+EEDI,H2,A0 t0.8/simZeroVar,3,0,results/hh/h1.json
+EEDI,H2,A0 t0.8/simUndefinedR,3,0,results/hh/h1.json
+EEDI,H2,A0 t0.8/exp(medianLogRatio),3,0.41375845753806606,results/hh/h1.json
+EEDI,H2,A0 t0.8/medianLogRatio,4,-0.7017751477792429,results/hh/h1.json
+EEDI,H2,A0 t0.8/nLogRatio,4,30,results/hh/h1.json
+EEDI,H2,A0 t0.8/medianD_conditional,4,-0.200461801130785,results/hh/h1.json
+EEDI,H2,A0 t0.8/nD,4,30,results/hh/h1.json
+EEDI,H2,A0 t0.8/simZeroVar,4,0,results/hh/h1.json
+EEDI,H2,A0 t0.8/simUndefinedR,4,0,results/hh/h1.json
+EEDI,H2,A0 t0.8/exp(medianLogRatio),4,0.49570457343672225,results/hh/h1.json
+EEDI,H2,A0 t0.8/medianLogRatio,5,-0.8264280688452487,results/hh/h1.json
+EEDI,H2,A0 t0.8/nLogRatio,5,30,results/hh/h1.json
+EEDI,H2,A0 t0.8/medianD_conditional,5,-0.1948316561546204,results/hh/h1.json
+EEDI,H2,A0 t0.8/nD,5,30,results/hh/h1.json
+EEDI,H2,A0 t0.8/simZeroVar,5,0,results/hh/h1.json
+EEDI,H2,A0 t0.8/simUndefinedR,5,0,results/hh/h1.json
+EEDI,H2,A0 t0.8/exp(medianLogRatio),5,0.4376096093766475,results/hh/h1.json
+EEDI,distractors-matched,A2 t0.6/estimable,1,109,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/estimable,2,108,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/estimable,3,110,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/estimable,4,110,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/estimable,5,108,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/armJS_r,1,0.2694525571734253,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/armJS_r,2,0.2721139697588079,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/armJS_r,3,0.2621383882497605,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/armJS_r,4,0.2692119542510364,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/armJS_r,5,0.26963553266637413,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/uniformJS_r,1,0.04306873745478457,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/uniformJS_r,2,0.04111928430725548,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/uniformJS_r,3,0.04273245338681883,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/uniformJS_r,4,0.04273245338681883,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/uniformJS_r,5,0.041027321724274035,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/armMinusUniform_r,1,0.22638381971864074,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/armMinusUniform_r,2,0.23099468545155244,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/armMinusUniform_r,3,0.21940593486294166,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/armMinusUniform_r,4,0.22647950086421756,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A2 t0.6/armMinusUniform_r,5,0.2286082109421001,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/estimable,1,111,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/estimable,2,111,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/estimable,3,111,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/estimable,4,110,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/estimable,5,110,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/armJS_r,1,0.20500188857625865,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/armJS_r,2,0.19744908843315684,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/armJS_r,3,0.19487583446155013,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/armJS_r,4,0.19684685405741498,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/armJS_r,5,0.19743705253455626,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/uniformJS_r,1,0.04322356184695363,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/uniformJS_r,2,0.04322356184695363,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/uniformJS_r,3,0.04322356184695363,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/uniformJS_r,4,0.04273245338681883,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/uniformJS_r,5,0.04273245338681883,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/armMinusUniform_r,1,0.161778326729305,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/armMinusUniform_r,2,0.1542255265862032,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/armMinusUniform_r,3,0.1516522726145965,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/armMinusUniform_r,4,0.15411440067059615,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A1 t0.8/armMinusUniform_r,5,0.15470459914773743,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/estimable,1,101,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/estimable,2,101,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/estimable,3,102,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/estimable,4,101,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/estimable,5,99,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/armJS_r,1,0.2902297935530844,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/armJS_r,2,0.29348950841019616,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/armJS_r,3,0.30298493046529595,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/armJS_r,4,0.28716781817583314,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/armJS_r,5,0.3010576078152317,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/uniformJS_r,1,0.04072616413464198,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/uniformJS_r,2,0.04026981831534987,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/uniformJS_r,3,0.04038647125075877,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/uniformJS_r,4,0.038731696217207644,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/uniformJS_r,5,0.03871172018283745,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/armMinusUniform_r,1,0.24950362941844245,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/armMinusUniform_r,2,0.2532196900948463,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/armMinusUniform_r,3,0.26259845921453717,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/armMinusUniform_r,4,0.2484361219586255,results/hh/distractor-pairs.json
+EEDI,distractors-matched,A0 t0.8/armMinusUniform_r,5,0.26234588763239425,results/hh/distractor-pairs.json

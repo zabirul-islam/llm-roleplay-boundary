@@ -1,0 +1,9 @@
+{
+ "label": "POST-LOCK, after the simulated review of draft v1 (2026-11-16). Locked analyze.core re-run with keep_draws reproduces h1.json (p and interval identical). Invalid rate is registered (prereg 5) but was not printed before; the rest is exploratory.",
+ "H1": {"T": 0.005366548054159315, "p": 0.19098090190980901, "ci95": [-0.207899820686461, 0.21483397039081983], "upper95_onesided": 0.18335855618651212},
+ "invalidOutput": {"a2-t0.6": {"answers": 138370, "invalid": 0}, "a1-t0.8": {"answers": 138370, "invalid": 0}, "a0-t0.8": {"answers": 138370, "invalid": 0}},
+ "B4ties": {"items": 130, "rhoB4iso": 0.3918962167224745, "rhoB4raw": 0.3735332310504675, "distinctIso": 4, "distinctRaw": 12},
+ "wrongAnswersPerEligibleItem": {"n": 111, "median": 113.0, "q1": 38.0, "q3": 183.5},
+ "uniformChoiceTopShareExpected_sameCounts": 0.4012098598390006,
+ "note": "uniform top share: multinomial draws with each eligible item's real wrong-answer count, 3 wrong options, 200 draws per item, seed 391"
+}

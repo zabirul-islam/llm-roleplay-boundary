@@ -1,0 +1,280 @@
+{
+ "pattern": {
+  "students": 822,
+  "items": 134,
+  "cells": 43981,
+  "templates": 127,
+  "classes": 30
+ },
+ "settings": {
+  "sims": 500,
+  "B": 1000,
+  "R": 5,
+  "kappa": 0.15,
+  "truthDraws": 40
+ },
+ "generators": {
+  "2pl": {
+   "H1 delta=0.1": {
+    "par": {
+     "ra": 0.5935693359374999,
+     "rb": 0.4680810546875,
+     "gS": 1.0,
+     "tauS": 0.0,
+     "g0": 0.5
+    },
+    "calibrationTruth": {
+     "delta": 0.1000656831763021,
+     "rhoB": 0.4339142471673481
+    },
+    "n": 500,
+    "meanTruth": {
+     "delta": 0.10502482941890164,
+     "rhoB": 0.42431826281500273
+    },
+    "P(reject H1)": [
+     0.05,
+     0.0341,
+     0.0728
+    ],
+    "P(reject H1 | truth in null)": [
+     0.0431,
+     0.0258,
+     0.071
+    ],
+    "coverage delta": [
+     0.954,
+     0.9319,
+     0.9692
+    ],
+    "P(any non-estimable draw)": [
+     0.0,
+     0.0,
+     0.0076
+    ],
+    "P(point estimate non-estimable)": [
+     0.0,
+     0.0,
+     0.0076
+    ]
+   },
+   "H1 delta=0.0": {
+    "par": {
+     "ra": 0.4798974609375001,
+     "rb": 0.4680810546875,
+     "gS": 1.0,
+     "tauS": 0.0,
+     "g0": 0.5
+    },
+    "calibrationTruth": {
+     "delta": 0.00011871605614561656,
+     "rhoB": 0.4339142471673481
+    },
+    "n": 500,
+    "meanTruth": {
+     "delta": 0.0034650886512233906,
+     "rhoB": 0.42431826281500273
+    },
+    "P(reject H1)": [
+     0.26,
+     0.2235,
+     0.3002
+    ],
+    "P(reject H1 | truth in null)": [
+     NaN,
+     NaN,
+     NaN
+    ],
+    "coverage delta": [
+     0.946,
+     0.9226,
+     0.9626
+    ],
+    "P(any non-estimable draw)": [
+     0.0,
+     0.0,
+     0.0076
+    ],
+    "P(point estimate non-estimable)": [
+     0.0,
+     0.0,
+     0.0076
+    ]
+   },
+   "H1 delta=-0.237": {
+    "par": {
+     "ra": 0.2051904296875,
+     "rb": 0.4680810546875,
+     "gS": 1.0,
+     "tauS": 0.0,
+     "g0": 0.5
+    },
+    "calibrationTruth": {
+     "delta": -0.23736777819809007,
+     "rhoB": 0.4339142471673481
+    },
+    "n": 500,
+    "meanTruth": {
+     "delta": -0.236347500938694,
+     "rhoB": 0.42431826281500273
+    },
+    "P(reject H1)": [
+     0.952,
+     0.9296,
+     0.9675
+    ],
+    "P(reject H1 | truth in null)": [
+     NaN,
+     NaN,
+     NaN
+    ],
+    "coverage delta": [
+     0.948,
+     0.9249,
+     0.9643
+    ],
+    "P(any non-estimable draw)": [
+     0.0,
+     0.0,
+     0.0076
+    ],
+    "P(point estimate non-estimable)": [
+     0.0,
+     0.0,
+     0.0076
+    ]
+   }
+  },
+  "misspec": {
+   "H1 delta=0.1": {
+    "par": {
+     "ra": 0.6153564453125,
+     "rb": 0.48720214843750004,
+     "gS": 1.0,
+     "tauS": 0.0,
+     "g0": 0.5
+    },
+    "calibrationTruth": {
+     "delta": 0.09962736550774254,
+     "rhoB": 0.43362845510231596
+    },
+    "n": 500,
+    "meanTruth": {
+     "delta": 0.10948312274915961,
+     "rhoB": 0.4246551826055121
+    },
+    "P(reject H1)": [
+     0.052,
+     0.0357,
+     0.0751
+    ],
+    "P(reject H1 | truth in null)": [
+     0.0593,
+     0.0391,
+     0.089
+    ],
+    "coverage delta": [
+     0.934,
+     0.9088,
+     0.9526
+    ],
+    "P(any non-estimable draw)": [
+     0.0,
+     0.0,
+     0.0076
+    ],
+    "P(point estimate non-estimable)": [
+     0.0,
+     0.0,
+     0.0076
+    ]
+   },
+   "H1 delta=0.0": {
+    "par": {
+     "ra": 0.5007373046875,
+     "rb": 0.48720214843750004,
+     "gS": 1.0,
+     "tauS": 0.0,
+     "g0": 0.5
+    },
+    "calibrationTruth": {
+     "delta": 0.00027843479163323654,
+     "rhoB": 0.43362845510231596
+    },
+    "n": 500,
+    "meanTruth": {
+     "delta": 0.010777257702889726,
+     "rhoB": 0.4246551826055121
+    },
+    "P(reject H1)": [
+     0.27,
+     0.2329,
+     0.3106
+    ],
+    "P(reject H1 | truth in null)": [
+     NaN,
+     NaN,
+     NaN
+    ],
+    "coverage delta": [
+     0.95,
+     0.9272,
+     0.9659
+    ],
+    "P(any non-estimable draw)": [
+     0.0,
+     0.0,
+     0.0076
+    ],
+    "P(point estimate non-estimable)": [
+     0.0,
+     0.0,
+     0.0076
+    ]
+   },
+   "H1 delta=-0.237": {
+    "par": {
+     "ra": 0.2203466796875,
+     "rb": 0.48720214843750004,
+     "gS": 1.0,
+     "tauS": 0.0,
+     "g0": 0.5
+    },
+    "calibrationTruth": {
+     "delta": -0.23715827019779212,
+     "rhoB": 0.43362845510231596
+    },
+    "n": 500,
+    "meanTruth": {
+     "delta": -0.22454026973702224,
+     "rhoB": 0.4246551826055121
+    },
+    "P(reject H1)": [
+     0.94,
+     0.9156,
+     0.9577
+    ],
+    "P(reject H1 | truth in null)": [
+     NaN,
+     NaN,
+     NaN
+    ],
+    "coverage delta": [
+     0.942,
+     0.9179,
+     0.9593
+    ],
+    "P(any non-estimable draw)": [
+     0.0,
+     0.0,
+     0.0076
+    ],
+    "P(point estimate non-estimable)": [
+     0.0,
+     0.0,
+     0.0076
+    ]
+   }
+  }
+ }
+}

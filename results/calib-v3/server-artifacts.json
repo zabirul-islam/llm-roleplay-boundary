@@ -1,0 +1,23 @@
+{
+ "location": "axis2 ~/ncomms/runs/v3/ (EEDI-derived; not redistributed)",
+ "retained-rows.json": {
+  "sha256": "5afef9f3d0e22dd775db81da09697591ab407d94997a50e817c2f7348ce382bb",
+  "files": {
+   "a3-t1.0-qwen3.5-27b.jsonl": {
+    "lines": 51522,
+    "duplicatedIds": 6478
+   },
+   "a0-t0.8-qwen3.5-27b.jsonl": {
+    "lines": 89989,
+    "duplicatedIds": 44945
+   }
+  },
+  "rule": "first line per id retained (score3.load_arm setdefault); manifest gives line + file sha256"
+ },
+ "frozen/": {
+  "anchors-hc.json": "59ba3c0851b4f6e71c236cd261e678dd0c990008e8ae8847c493256891f46a20",
+  "irt-cc.json": "d4da45fe15050f810779744b5754326a901f10d2cf9aa8904cc67cd1ba619566",
+  "item-predictions.json": "28267fdf81f0969c4dc899c6e276d34e3b628d9441f73769827f893591f472e0",
+  "settings.json": "0dbaf7cd91db52f38c545067f2619ad97cd86f585e47d109e02fa88ced44307f"
+ }
+}

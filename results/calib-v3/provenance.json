@@ -1,0 +1,203 @@
+{
+ "written": "2026-11-14T18:55:09",
+ "artifacts": {
+  "items.json": {
+   "path": "data/eedi-blocks/items.json",
+   "producer": "heldout.py quarantine",
+   "sources": [
+    "sealed/all_data.csv (raw release, moved to sealed/ 2026-11-14)"
+   ],
+   "fieldsRead": [
+    "QuestionId",
+    "problem",
+    "CorrectAnswer"
+   ],
+   "responseBlocks": [],
+   "sha256": "bd5d147ab97f46dc45b1ad18561a640b1233d03d770b569620206d057e1a22fa",
+   "mtime": "2026-11-14T15:17:42"
+  },
+  "homes.json": {
+   "path": "data/eedi-blocks/homes.json",
+   "producer": "heldout.py quarantine",
+   "sources": [
+    "sealed/all_data.csv (raw release, moved to sealed/ 2026-11-14)"
+   ],
+   "fieldsRead": [
+    "UserId",
+    "GroupId"
+   ],
+   "responseBlocks": [],
+   "sha256": "bd749e8a298b729f244e955c7ca9c04a14887f63334947e26bcae545a31ada42",
+   "mtime": "2026-11-14T15:17:42"
+  },
+  "cc.csv": {
+   "path": "data/eedi-blocks/cc.csv",
+   "producer": "heldout.py quarantine (mechanical partition by split ids)",
+   "sources": [
+    "sealed/all_data.csv (raw release, moved to sealed/ 2026-11-14)"
+   ],
+   "fieldsRead": [
+    "all columns, rows with calibration user and calibration item"
+   ],
+   "responseBlocks": [],
+   "sha256": "07b6f1783175676d75e56a01fcf3fe971de6311f803b335e39658a77bea02c76",
+   "mtime": "2026-11-14T15:17:42"
+  },
+  "hc.csv": {
+   "path": "data/eedi-blocks/hc.csv",
+   "producer": "heldout.py quarantine (mechanical partition by split ids)",
+   "sources": [
+    "sealed/all_data.csv (raw release, moved to sealed/ 2026-11-14)"
+   ],
+   "fieldsRead": [
+    "all columns, rows with held-out user and calibration item"
+   ],
+   "responseBlocks": [],
+   "sha256": "f6ec32e75e838f560cf42d3789b3604f5f07be118f693a817c5622196a9f015f",
+   "mtime": "2026-11-14T15:17:42"
+  },
+  "split-eedi.json": {
+   "path": "data/split-eedi.json",
+   "producer": "data/split.py (2026-11-10)",
+   "sources": [
+    "raw release ids and dates"
+   ],
+   "fieldsRead": [
+    "UserId",
+    "QuestionId",
+    "GroupId",
+    "DateAnswered"
+   ],
+   "responseBlocks": [],
+   "sha256": "f678a7c01565bd4d55359ba79223bbbd3e27762fa06d79fe1d7670d868044556",
+   "mtime": "2026-11-14T18:48:08"
+  },
+  "components.json (templates, 134-item list, home-class membership graph)": {
+   "path": "runs/v3/components.json",
+   "producer": "audit.py components",
+   "sources": [
+    "items.json",
+    "homes.json",
+    "hc.csv",
+    "split-eedi.json"
+   ],
+   "fieldsRead": [
+    "problem",
+    "CorrectAnswer key (tie exclusion)",
+    "hc UserId",
+    "hc GroupId"
+   ],
+   "responseBlocks": [],
+   "sha256": "e728d4e75bdcbd44ad0fc97110f5f3c2514d96fc8337f6606b02b9e6c7f28947",
+   "mtime": "2026-11-14T18:48:16"
+  },
+  "emb-bge-m3.npz (B1/B2 item embeddings)": {
+   "path": "runs/v3/emb-bge-m3.npz",
+   "producer": "score3.py embed",
+   "sources": [
+    "items.json"
+   ],
+   "fieldsRead": [
+    "problem"
+   ],
+   "responseBlocks": [],
+   "sha256": "30939d8ed91fbcf8a269e08dfa88582d72ca38fdc371755c3d67c29dbc31f10f",
+   "mtime": "2026-11-14T15:30:24"
+  },
+  "rate-req.jsonl (B4 prompts)": {
+   "path": "runs/v3/rate-req.jsonl",
+   "producer": "score3.py rate-build",
+   "sources": [
+    "items.json"
+   ],
+   "fieldsRead": [
+    "problem"
+   ],
+   "responseBlocks": [],
+   "sha256": "466587d2013240d6a3f07d23fe394fa5ca1f466c01e593507a573525570f2ff0",
+   "mtime": "2026-11-14T15:29:37"
+  },
+  "rate-qwen3.5-27b.jsonl (B4 ratings)": {
+   "path": "runs/v3/rate-qwen3.5-27b.jsonl",
+   "producer": "sim.py run",
+   "sources": [
+    "rate-req.jsonl"
+   ],
+   "fieldsRead": [
+    "model output"
+   ],
+   "responseBlocks": [],
+   "sha256": "9ce0acb4fd37f786a390f73a447e6862becdb7f9f9c51862f04d75a73d93791d",
+   "mtime": "2026-11-14T15:33:44"
+  },
+  "calib-v3.json (development scores; fold 2PLs, anchors, B1-B4 fits inside)": {
+   "path": "runs/v3/calib-v3.json",
+   "producer": "score3.py score",
+   "sources": [
+    "cc.csv",
+    "items.json",
+    "homes.json",
+    "v3 + v2 arm outputs",
+    "emb-bge-m3.npz",
+    "rate-qwen3.5-27b.jsonl"
+   ],
+   "fieldsRead": [
+    "cc AnswerValue",
+    "key"
+   ],
+   "responseBlocks": [
+    "cc"
+   ],
+   "sha256": "10003976112931bd5e35b7df32810d38bd1e55b1bce21310ee9b8bf9c3280fd0",
+   "mtime": "2026-11-14T18:05:04"
+  },
+  "choices-6.json (\u00a76 selections)": {
+   "path": "results/calib-v3/choices-6.json",
+   "producer": "select6.py",
+   "sources": [
+    "calib-v3.json"
+   ],
+   "fieldsRead": [
+    "fold rho"
+   ],
+   "responseBlocks": [
+    "cc"
+   ],
+   "sha256": "3543a12f08ad8f4536b50bf470dd6fa712011b30a7d7b3f7ff27bfc2f5d28384",
+   "mtime": "2026-11-14T18:55:08"
+  }
+ },
+ "checks": {
+  "noArtifactUsesSealedResponses": true,
+  "accessLogSealedReads": [],
+  "accessLogLines": 13,
+  "codeNamingSealedBlocks": {},
+  "sealedModes": "sealed dir is on Empire (~/ncomms-data/eedi-blocks/sealed); axis2 holds open blocks only",
+  "pass": true
+ },
+ "empire": {
+  "accessLog": "8 lines 2026-11-14T15:15-15:23: 2x QUARANTINE (write), READ cc x6, READ hc x1 (audit.py data); no READ hh/ch",
+  "sealedModes": {
+   "sealed/": "700",
+   "all_data.csv": "600",
+   "ch.csv": "600",
+   "data.zip": "600",
+   "hh.csv": "600"
+  },
+  "sha256": {
+   "all_data.csv": "f0edcf628a29398db1ece6d956c1db22324c02efdf80e0320cb0748bb3bc3f30",
+   "ch.csv": "b2dc3be58bed9fe6f3045009efe0db64afb3be511796c99e977b1578b28f6f43",
+   "data.zip": "f6cf1202ff0b1331f39f69b12f4dc3b4e756603d893230440c33f5815d4471fc",
+   "hh.csv": "41005f0ab4b048bb99ff2db118a5bf6476cf0ae7fd25f8653599a19fd29eb233"
+  },
+  "rawMatchesManifest": true
+ },
+ "historical": {
+  "before2026-11-14": "v2 code (calib.read_side, 2026-11-10..12) streamed the raw CSV and kept only rows with a calibration user AND a calibration item (= cc); hc/ch/hh rows were parsed and discarded (mechanical partition), never stored or summarised. Guard calib.guard refused side=held from commit 52ef64d (2026-11-10). split.py used ids and dates only. No other EEDI use in the repo (grep 2026-11-14).",
+  "metadataFromAllBlocks": [
+   "items.json: problem text + CorrectAnswer majority over all rows incl. hh/ch (item metadata)",
+   "homes.json: UserId->GroupId majority over all rows incl. hh/ch (assignment incidence)"
+  ],
+  "notCovered": "GroupIds that appear only on sealed hh rows are not visible to the membership audit"
+ }
+}

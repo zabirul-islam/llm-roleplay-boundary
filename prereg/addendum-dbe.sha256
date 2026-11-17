@@ -1,0 +1,24 @@
+# DBE-KT22 addendum A1 lock (prereg v3.1, osf.io/ygvdf), 2026-11-16T05:43:32Z; repo commit 9f33a5188f4de8c2a6f36980a079e3860a1acfc5
+# sha256sum format, paths relative to paper-ncomms/; server artifacts (axis2 ~/ncomms/runs/dbe/) listed with their paths there
+09ebc8d649d9baa8bd1e9b6aae469c8cb5978d822db9f356d99875024083ddaf  prereg/addendum-dbe.md
+cad9c84ad6849bdb9818a116c2011f8c342636e38a89238a26eb33d5399fb4a3  sim/dbe.py
+55bc4ca127cd991ad2d0dfcc8516f212044a3cf68fef5cb1b39bc4d40ee71546  sim/dbe_prep.py
+524c6ac872e1cc6c2f38b1afe1c7a76a119fb6e35b7b00f31389a10aff9fef68  sim/analyze.py
+3f3a938f41229305549bca5fda1e62247819b969c37a7c6849404e8c94ac038c  sim/calib.py
+5a5871ff1992972bf0e41398d7c937acebd6485db7b7e869c2cb18202aa2f19c  sim/score3.py
+f4148c4aed7eff5f16f841c989404f3caff6d7824a711fd39880607f87cd1a61  sim/audit.py
+0203ac0c6943c36bf03d0312a27d59d9793ea7beaae1acc82d2ed9032f5d60cc  sim/sim.py
+559cb130fe59f87d94172129dc97f1579d81a5439799421688b01c8c4fee097d  sim/design.py
+a668aada549833ccfe86d6379721c9538ed7f0750272b9b2051d0d9db943b427  results/dbe/design-dbe.json
+bf82703e07f2af1ff2a6dfaff22e3b7698d304de584479b08ce112aefc1d8e9a  review/pass6-closure.md
+9ec9606fe1fe3108966a2b194476a4b09bb1b6ca1f91b1ffefe6b698d9c8bb98  axis2:runs/dbe/items-dbe.json
+54ae18f2bd4964f25b8bf614a7fd16841c899dd4087c7f018ddccafbbb824814  axis2:runs/dbe/components-dbe.json
+71613d1ae45273d69775636bb710752d904e1baf66d86394b618b58a93c30838  axis2:runs/dbe/rate-req.jsonl
+cea546590e8d0579570d52a5e5f6684b51cafd87e6d33e962ab0175b24753065  axis2:runs/dbe/rate-qwen3.5-27b.jsonl
+0c14b71085296da9e43f780705c9d66a9aaa5889fa1d66989d33e4bbd6ba9706  axis2:runs/dbe/emb-bge-m3.npz
+d25cc1b6859a006592481412f9dc374eb07e944c4bb3896bfdc742d69683f77a  axis2:runs/dbe/frozen/item-predictions.json
+ced559c3caf2e357975c72221b98cef3e9b32dee056b6a79cee902436f82f05c  axis2:runs/dbe/frozen/irt-cc.json
+5468077b6596979c2df9eca160c4e906c02ee2ccc566311ed5d21b4ef9728db6  axis2:runs/dbe/frozen/anchors-hc.json
+d122f8f42b4c9b44941a6908ecd2ba06e7739d8f20bf6eeb1459d14ca7cd626f  axis2:runs/dbe/frozen/settings.json
+c5f554ed776bce9ce9a556b21afcab894e963bf8ea5adae94668a98282c13af6  empire:ncomms-data/dbe-blocks/sealed/Transaction.csv
+3585d840fbb2a99cb16b44670192ea86b4ae9b356caa77e1fb876c7311bd3c0d  split-dbe.json

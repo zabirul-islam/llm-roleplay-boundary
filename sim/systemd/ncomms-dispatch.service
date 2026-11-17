@@ -1,0 +1,7 @@
+[Unit]
+Description=Nature Comms: keep Empire AI simulation units moving (paper-ncomms/sim/empire-dispatch.py)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/alive/paper-ncomms/sim/empire-dispatch.py
+TimeoutStartSec=600

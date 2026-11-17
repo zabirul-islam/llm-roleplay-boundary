@@ -1,0 +1,10 @@
+{
+ "label": "exploratory, after the A2 lock and OSF update; not registered; does not change any registered result",
+ "question": "Does the registered option-match rule (exact text after .strip()) recover discrete_score on retained primary-item hh rows?",
+ "pairs": 22476,
+ "counts_discreteScore_optionMatch": {"1,1": 11836, "0,0": 6410, "1,0": 4199, "0,1": 31},
+ "agreement": 0.812,
+ "emptyAnswerText": 0,
+ "answerTextFoundLiterallyInOptionsField": 16938,
+ "answerTextNotFoundLiterallyInOptionsField": 5538
+}

@@ -1,0 +1,99 @@
+{
+ "boot": "crossed",
+ "pattern": {
+  "students": 822,
+  "items": 134,
+  "classes": 30,
+  "cells": 44535
+ },
+ "scenarios": {
+  "2pl base=0.5 delta=-0.3": {
+   "P_advantage": 0.0,
+   "P_excluded": 0.87,
+   "coverage": 0.97
+  },
+  "2pl base=0.5 delta=-0.1": {
+   "P_advantage": 0.0,
+   "P_excluded": 0.33,
+   "coverage": 0.97
+  },
+  "2pl base=0.5 delta=0.0": {
+   "P_advantage": 0.04,
+   "P_excluded": 0.09,
+   "coverage": 0.95
+  },
+  "2pl base=0.5 delta=0.1": {
+   "P_advantage": 0.09,
+   "P_excluded": 0.02,
+   "coverage": 0.98
+  },
+  "2pl base=0.5 delta=0.2": {
+   "P_advantage": 0.53,
+   "P_excluded": 0.0,
+   "coverage": 0.97
+  },
+  "2pl base=0.2 delta=0.0": {
+   "P_advantage": 0.03,
+   "P_excluded": 0.08,
+   "coverage": 0.96
+  },
+  "2pl base=0.2 delta=0.1": {
+   "P_advantage": 0.07,
+   "P_excluded": 0.01,
+   "coverage": 0.99
+  },
+  "2pl H2 sdRatio=1.0": {
+   "P_inBand": 1.0
+  },
+  "2pl H2 sdRatio=0.8": {
+   "P_inBand": 0.0
+  },
+  "2pl H2 sdRatio=0.6": {
+   "P_inBand": 0.0
+  },
+  "misspec base=0.5 delta=-0.3": {
+   "P_advantage": 0.0,
+   "P_excluded": 0.83,
+   "coverage": 0.98
+  },
+  "misspec base=0.5 delta=-0.1": {
+   "P_advantage": 0.01,
+   "P_excluded": 0.38,
+   "coverage": 0.98
+  },
+  "misspec base=0.5 delta=0.0": {
+   "P_advantage": 0.0,
+   "P_excluded": 0.12,
+   "coverage": 1.0
+  },
+  "misspec base=0.5 delta=0.1": {
+   "P_advantage": 0.05,
+   "P_excluded": 0.06,
+   "coverage": 0.94
+  },
+  "misspec base=0.5 delta=0.2": {
+   "P_advantage": 0.34,
+   "P_excluded": 0.0,
+   "coverage": 0.95
+  },
+  "misspec base=0.2 delta=0.0": {
+   "P_advantage": 0.01,
+   "P_excluded": 0.1,
+   "coverage": 0.98
+  },
+  "misspec base=0.2 delta=0.1": {
+   "P_advantage": 0.03,
+   "P_excluded": 0.02,
+   "coverage": 0.97
+  },
+  "misspec H2 sdRatio=1.0": {
+   "P_inBand": 1.0
+  },
+  "misspec H2 sdRatio=0.8": {
+   "P_inBand": 0.0
+  },
+  "misspec H2 sdRatio=0.6": {
+   "P_inBand": 0.0
+  }
+ }
+}

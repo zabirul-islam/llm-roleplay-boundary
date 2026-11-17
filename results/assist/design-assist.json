@@ -1,0 +1,106 @@
+{
+ "pattern": {
+  "students": 1000,
+  "items": 262,
+  "cells": 28480,
+  "templates": 251,
+  "primaryShape": {
+   "items": 262,
+   "templates": 241
+  }
+ },
+ "settings": {
+  "sims": 1000,
+  "B": 1000,
+  "R": 5,
+  "kappa": 0.15,
+  "rhoB": 0.17201857455896338,
+  "referenceDraws": 400
+ },
+ "criterion": "per generator: Wilson upper(one-sided non-coverage) <= 0.075 AND Wilson lower(two-sided coverage) >= 0.925 AND |mean truth - 0.10| <= 0.02",
+ "generators": {
+  "2pl": {
+   "par": {
+    "ra": 0.33816284179687495,
+    "rb": 0.21925048828125004,
+    "gS": 1.0,
+    "tauS": 0.0,
+    "g0": 0.5
+   },
+   "calibrationTruth": {
+    "delta": 0.10006538920979395,
+    "rhoB": 0.1719841907250143
+   },
+   "n": 1000,
+   "meanTruth": 0.09860244420941863,
+   "truthMcSE_median": 0.003733315509371961,
+   "oneSidedNonCoverage": {
+    "k": 60,
+    "n": 1000,
+    "wilson": [
+     0.06,
+     0.0469,
+     0.0765
+    ]
+   },
+   "twoSidedCoverage": {
+    "k": 936,
+    "n": 1000,
+    "wilson": [
+     0.936,
+     0.9191,
+     0.9496
+    ]
+   },
+   "rejectAt0.10": [
+    0.063,
+    0.0495,
+    0.0798
+   ],
+   "nonEstimable": 0,
+   "criterionMet": false
+  },
+  "misspec": {
+   "par": {
+    "ra": 0.3696594238281251,
+    "rb": 0.23049560546874998,
+    "gS": 1.0,
+    "tauS": 0.0,
+    "g0": 0.5
+   },
+   "calibrationTruth": {
+    "delta": 0.09999984439905923,
+    "rhoB": 0.17208890483617467
+   },
+   "n": 1000,
+   "meanTruth": 0.10455140024284618,
+   "truthMcSE_median": 0.0037154768381826363,
+   "oneSidedNonCoverage": {
+    "k": 42,
+    "n": 1000,
+    "wilson": [
+     0.042,
+     0.0312,
+     0.0563
+    ]
+   },
+   "twoSidedCoverage": {
+    "k": 954,
+    "n": 1000,
+    "wilson": [
+     0.954,
+     0.9392,
+     0.9653
+    ]
+   },
+   "rejectAt0.10": [
+    0.036,
+    0.0261,
+    0.0494
+   ],
+   "nonEstimable": 0,
+   "criterionMet": true
+  }
+ },
+ "criterionMetAll": false
+}

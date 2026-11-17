@@ -1,0 +1,11 @@
+{
+ "label": "POST-LOCK EXPLORATORY (not registered), 2026-11-16; prompted by the CI-coding pass on draft v1",
+ "question": "Are role-play item proportions compressed or spread wider than real proportions? (SD across the 130 EEDI primary items; population SD)",
+ "code": "secondary.Ctx + real_p on axis2, same item set and cells as results/hh/secondary.json",
+ "items": 130,
+ "SD real": 0.1908120676753328,
+ "a2-t0.6": {"SD pred (mean over reps)": 0.33440982715222684, "pearson (mean)": 0.36370486957775194},
+ "a1-t0.8": {"SD pred (mean over reps)": 0.29365677482554364, "pearson (mean)": 0.3520061515455286},
+ "a0-t0.8": {"SD pred (mean over reps)": 0.3417940690101716, "pearson (mean)": 0.3013899068838949},
+ "B4": {"SD pred": 0.08289793934499594, "pearson": 0.4763405541015878}
+}
