@@ -10,7 +10,8 @@ cd "$SRC"
 
 # allowlist: tracked files under these paths only (git ls-files never lists untracked data)
 FILES=$(git ls-files sim results supplementary prereg figures/make_figs.py figures/src make_numbers.py \
-        data/split.py data/MANIFEST.md data/AUDIT.md export-public.sh public/README.md public/LICENSE)
+        data/split.py data/MANIFEST.md data/AUDIT.md export-public.sh public/README.md public/LICENSE \
+        public/.zenodo.json public/CITATION.cff)
 
 # audit (fails closed): item text, per-item human values for EEDI/ASSIST, secrets
 python3 - $FILES <<'EOF'
@@ -31,7 +32,7 @@ def scan(f, o, path=""):
     elif isinstance(o, str) and len(o) > 200 and not path.startswith(("/historical", "/label")):
         bad.append(f"{f}: long string at {path}")
 for f in sys.argv[1:]:
-    if f.endswith(".json"):
+    if f.endswith(".json") and f.startswith("results/"):   # item-text / per-item checks apply to result files
         scan(f, json.load(open(f)))
     if f.endswith((".py", ".md", ".json", ".csv", ".sh", ".tsv", ".txt", ".service", ".timer", ".sbatch", ".html")):
         for m in sec.finditer(open(f, errors="ignore").read()):

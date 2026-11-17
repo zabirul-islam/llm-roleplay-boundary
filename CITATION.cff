@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Code and aggregate results for: Open LLM student role-play shows no detectable advantage over direct difficulty rating and concentrates errors"
+type: software
+license: MIT
+repository-code: "https://github.com/zabirul-islam/llm-roleplay-boundary"
+authors:
+  - family-names: Islam
+    given-names: Md Zabirul
+    affiliation: "Department of Computer Science, Rensselaer Polytechnic Institute"
+    orcid: "https://orcid.org/0009-0004-1183-8383"
+  - family-names: Wang
+    given-names: Ge
+    affiliation: "Department of Biomedical Engineering and Biomedical Imaging Center, Rensselaer Polytechnic Institute"
+    orcid: "https://orcid.org/0000-0002-2656-7705"
+keywords:
+  - large language models
+  - simulated students
+  - item difficulty
+  - pre-registration

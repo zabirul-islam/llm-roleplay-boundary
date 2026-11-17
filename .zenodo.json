@@ -1,0 +1,14 @@
+{
+  "title": "Code and aggregate results for: Open LLM student role-play shows no detectable advantage over direct difficulty rating and concentrates errors",
+  "upload_type": "software",
+  "description": "Analysis code, verbatim prompts, registration documents (OSF osf.io/ygvdf), the number-generation script, figure code and aggregate results for a pre-registered study comparing large language model student role-play with the same model's direct rating of item difficulty on sealed held-out responses (EEDI confirmatory; DBE-KT22 and FoundationalASSIST descriptive). No dataset is redistributed; see README for data access.",
+  "creators": [
+    {"name": "Islam, Md Zabirul", "affiliation": "Department of Computer Science, Rensselaer Polytechnic Institute", "orcid": "0009-0004-1183-8383"},
+    {"name": "Wang, Ge", "affiliation": "Department of Biomedical Engineering and Biomedical Imaging Center, Rensselaer Polytechnic Institute", "orcid": "0000-0002-2656-7705"}
+  ],
+  "license": "MIT",
+  "keywords": ["large language models", "simulated students", "item difficulty", "pre-registration", "educational measurement"],
+  "related_identifiers": [
+    {"identifier": "https://osf.io/ygvdf", "relation": "isSupplementTo", "resource_type": "other"}
+  ]
+}
